@@ -8,9 +8,7 @@
 body{
     background-color: black;
     color: white;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-top: 40px;
 }
 
 
@@ -18,8 +16,7 @@ body{
 #table{
     display: grid;
     grid-template-columns: repeat(19, 1fr);
-    gap: 10px;
-    
+    gap: 5px;
     
 }
 
@@ -54,7 +51,7 @@ body{
     width: 50px;
     height: 50px;
     font-size: 2rem;
-    padding: 0 5px;
+    padding: 0 10px;
     padding-bottom: 10px;
 
 }
@@ -63,6 +60,7 @@ body{
 }
 .element .number{
     font-size: 14px;
+    text-align: left;
     
 }
 .element1{
@@ -79,28 +77,28 @@ body{
     width: 50px
 }
 .green{
-    background-color: green;   
+    background-color: rgb(0, 52, 0);   
 }
 .lightgreen{
-    background-color: lightgreen;
+    background-color: rgb(37, 189, 37);
 }
 .pink{
-    background-color: rgb(249, 158, 173);
+    background-color: rgb(72, 22, 69);
 }
 .orange{
     background-color: orange;
 }
 .red{
-    background-color: red;
+    background-color: rgb(167, 7, 7);
 }
 .purple{
-    background-color: rgb(60, 22, 60);
+    background-color: rgb(159, 29, 159);
 }
 .lightblue{
-    background-color: rgb(81, 134, 152);
+    background-color: rgb(30, 114, 142);
 }
 .blue{
-    background-color: blue;
+    background-color: rgb(11, 17, 213);
 }
 .topnumber{
     text-align: center;
